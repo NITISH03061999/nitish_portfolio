@@ -1,8 +1,8 @@
-import React, { useState, useRef } from "react";
+import React, {useState, useRef} from "react";
 import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
 
-export default function ExperienceCard({ cardInfo, isDark }) {
+export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = useRef(null);
 
@@ -22,7 +22,7 @@ export default function ExperienceCard({ cardInfo, isDark }) {
     return values ? `rgb(${values.join(", ")})` : null;
   }
 
-  const GetDescBullets = ({ descBullets, isDark }) =>
+  const GetDescBullets = ({descBullets, isDark}) =>
     descBullets
       ? descBullets.map((item, i) => (
           <li
@@ -91,10 +91,7 @@ export default function ExperienceCard({ cardInfo, isDark }) {
         </p>
 
         <ul>
-          <GetDescBullets
-            descBullets={cardInfo.descBullets}
-            isDark={isDark}
-          />
+          <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
       </div>
     </div>

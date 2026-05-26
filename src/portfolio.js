@@ -1,11 +1,10 @@
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
-import  "./index.css";
+import "./index.css";
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
- 
 
 // Splash Screen
 
@@ -31,8 +30,7 @@ const greeting = {
   displayGreeting: true
 };
 
-// Social Media 
-
+// Social Media
 
 const socialMediaLinks = {
   github: "https://github.com/NITISH03061999",
@@ -48,7 +46,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "FULL STACK DEVELOPER with MERN STACK FOCUSED ON SCALABLE AND SECURE WEB APPLICATIONS",
+  subTitle:
+    "FULL STACK DEVELOPER with MERN STACK FOCUSED ON SCALABLE AND SECURE WEB APPLICATIONS",
   skills: [
     emoji(
       "⚡ Build high-performance, SEO-optimized websites for travel, visa, and business platforms"
@@ -71,25 +70,25 @@ const skillsSection = {
   ],
 
   softwareSkills: [
-      {
+    {
       skillName: "NextJS",
       fontAwesomeClassname: "fab fa-react"
     },
-     {
+    {
       skillName: "Nextauth",
       fontAwesomeClassname: "fas fa-user-lock"
     },
-     {
+    {
       skillName: "TypeScript",
       fontAwesomeClassname: "fas fa-code" // best match icon
-    },                    
+    },
     {
       skillName: "NodeJS",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-    skillName: "Tailwind CSS",
-    fontAwesomeClassname: "fas fa-wind"
+      skillName: "Tailwind CSS",
+      fontAwesomeClassname: "fas fa-wind"
     },
     {
       skillName: "JavaScript",
@@ -99,7 +98,7 @@ const skillsSection = {
       skillName: "ReactJS",
       fontAwesomeClassname: "fab fa-react"
     },
-        {
+    {
       skillName: "BcryptJS",
       fontAwesomeClassname: "fas fa-lock" // best match icon
     },
@@ -115,7 +114,7 @@ const skillsSection = {
       skillName: "SASS",
       fontAwesomeClassname: "fab fa-sass"
     },
-  
+
     {
       skillName: "Mongoose",
       fontAwesomeClassname: "fas fa-database" // best match icon
@@ -131,8 +130,7 @@ const skillsSection = {
     {
       skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-   
+    }
   ],
   display: true
 };
@@ -147,8 +145,7 @@ const educationInfo = {
       logo: require("./assets/images/piet.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2020 - September 2023",
-      desc: "Completed Bachelors in Computer Science. Learnt various skills such as DBMS, C++, MERN Stack etc.",
-     
+      desc: "Completed Bachelors in Computer Science. Learnt various skills such as DBMS, C++, MERN Stack etc."
     }
   ]
 };
@@ -167,7 +164,6 @@ const techStack = {
       progressPercentage: "70%"
     },
 
-
     {
       Stack: "Programming",
       progressPercentage: "60%"
@@ -178,19 +174,15 @@ const techStack = {
 
 // Work experience section
 
-
-
-
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Web Developer",
       company: "Sanram Travels Pvt Ltd",
-     companylogo: require("./assets/images/sanramlogo.png"),
+      companylogo: require("./assets/images/sanramlogo.png"),
       date: "June 2025 – Present",
-      desc: "Develop, maintain, and enhance company websites and web applications. Collaborate with cross-functional teams to gather requirements and implement new features. Ensure website performance, security, and responsiveness across various devices and browsers.",
-  
+      desc: "Develop, maintain, and enhance company websites and web applications. Collaborate with cross-functional teams to gather requirements and implement new features. Ensure website performance, security, and responsiveness across various devices and browsers."
     },
     {
       role: "Web Developer",
@@ -226,7 +218,7 @@ const bigProjects = {
     {
       image: require("./assets/images/sanramlogo.png"),
       projectName: "Sanram Travels ",
-  projectDesc: `
+      projectDesc: `
  The platform features a fully responsive UI with optimized performance using server-side rendering (SSR) and dynamic routing. Implemented secure authentication using NextAuth.js with JSON Web Tokens for session management, along with password encryption using bcryptjs to ensure data security.
 
 Integrated RESTful APIs for dynamic content handling and built modular, reusable components to maintain scalability and clean architecture. The application also includes form handling, validation, and lead management features tailored for travel business needs.
@@ -243,7 +235,7 @@ Integrated RESTful APIs for dynamic content handling and built modular, reusable
     {
       image: require("./assets/images/2025-01-10.png"),
       projectName: "Fruesome",
- projectDesc: `
+      projectDesc: `
  Built a modern, responsive fruit-cream eCommerce website using React, Vite, and Tailwind CSS, delivering fast load performance and a seamless user experience across devices.
 
 Implemented dynamic client-side routing using React Router to enable smooth navigation without page reloads. Enhanced UI/UX with smooth scrolling and interactive animations using React Scroll and Framer Motion.
@@ -272,8 +264,7 @@ const achievementSection = {
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
-  achievementsCards: [{}
-  ],
+  achievementsCards: [{}],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -303,9 +294,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -320,8 +309,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Want to discuss a job? My Inbox is open for all.",
+  subtitle: "Want to discuss a job? My Inbox is open for all.",
   number: "+91-8813928508",
   email_address: "nitishdhaka162@gmail.com"
 };
@@ -347,7 +335,6 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-
   talkSection,
   podcastSection,
   contactInfo,

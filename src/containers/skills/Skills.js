@@ -1,14 +1,14 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import { illustration, skillsSection } from "../../portfolio";
-import { Fade } from "react-awesome-reveal";
+import {illustration, skillsSection} from "../../portfolio";
+import {Fade} from "react-awesome-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Skills() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
 
   if (!skillsSection.display) {
     return null;
@@ -16,7 +16,6 @@ export default function Skills() {
 
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
-      
       {/* 🔥 TOP FULL WIDTH DIV */}
       <div className="skills-top-div">
         <h1 className={isDark ? "dark-mode skills-heading" : "skills-heading"}>
@@ -38,7 +37,6 @@ export default function Skills() {
 
       {/* 🔥 BOTTOM 2 COLUMN DIV */}
       <div className="skills-bottom-div">
-        
         {/* LEFT - GRAPHIC */}
         <Fade left duration={1000}>
           <div className="skills-image-div">
@@ -70,7 +68,6 @@ export default function Skills() {
             ))}
           </div>
         </Fade>
-
       </div>
     </div>
   );
