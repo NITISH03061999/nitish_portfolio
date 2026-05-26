@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/nitish_portfolio/static/css/main.e70ff2c5.css",
+    "main.js": "/nitish_portfolio/static/js/main.f31b1a99.js",
+    "static/css/487.bb36206c.chunk.css": "/nitish_portfolio/static/css/487.bb36206c.chunk.css",
+    "static/js/487.d8a2444e.chunk.js": "/nitish_portfolio/static/js/487.d8a2444e.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/nitish_portfolio/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.43975e08.chunk.js": "/nitish_portfolio/static/js/990.43975e08.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/nitish_portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/sanramlogo.png": "/nitish_portfolio/static/media/sanramlogo.d1a9b6f4a67d53bd9e63.png",
+    "static/media/Agustina.woff": "/nitish_portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/techmind.png": "/nitish_portfolio/static/media/techmind.e41833dda36a17a18392.png",
+    "static/media/manOnTable.svg": "/nitish_portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/nitish_portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/nitish_portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/2025-01-10.png": "/nitish_portfolio/static/media/2025-01-10.f16fd517768567babe8c.png",
+    "static/media/skill.svg": "/nitish_portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/nitish_portfolio/index.html",
+    "main.e70ff2c5.css.map": "/nitish_portfolio/static/css/main.e70ff2c5.css.map",
+    "main.f31b1a99.js.map": "/nitish_portfolio/static/js/main.f31b1a99.js.map",
+    "487.bb36206c.chunk.css.map": "/nitish_portfolio/static/css/487.bb36206c.chunk.css.map",
+    "487.d8a2444e.chunk.js.map": "/nitish_portfolio/static/js/487.d8a2444e.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/nitish_portfolio/static/css/990.c6a7ee28.chunk.css.map",
+    "990.43975e08.chunk.js.map": "/nitish_portfolio/static/js/990.43975e08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e70ff2c5.css",
+    "static/js/main.f31b1a99.js"
+  ]
+}
