@@ -1,0 +1,61 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal Portfolio Website",
+  "homepage": "https://nitish03061999.github.io/nitish_portfolio",
+  "bugs": {
+    "url": "https://github.com/NITISH03061999/nitish_portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NITISH03061999/nitish_portfolio.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "predeploy": "npm run build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"./**/*.{js,jsx,css,json,scss}\"",
+    "check-format": "prettier -c \"./**/*.{js,jsx,css,json,scss}\""
+  },
+  "dependencies": {
+    "colorthief": "^2.3.2",
+    "lottie-react": "^2.4.1",
+    "react": "^18.2.0",
+    "react-awesome-reveal": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-easy-emoji": "^1.8.1",
+    "react-headroom": "^3.2.1",
+    "react-scripts": "^5.0.1",
+    "react-twitter-embed": "^4.0.4",
+    "sass": "^1.77.6"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "dotenv": "^16.4.5",
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.3.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
